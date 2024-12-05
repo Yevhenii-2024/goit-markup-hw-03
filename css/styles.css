@@ -32,6 +32,20 @@ button {
   cursor: pointer;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -48,6 +62,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
+  border: 1px solid #000;
 }
 
 .nav-list-item {
@@ -56,15 +71,20 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: #404bbf;
 }
+
 .contacts {
   font-style: normal;
 }
+
 .address-nav {
   color: #434455;
   font-weight: 400;
@@ -77,9 +97,11 @@ button {
 .address-nav:focus {
   color: #404bbf;
 }
+
 .section-one {
   background-color: #2e2f42;
 }
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -87,6 +109,11 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  width: 496px;
+  padding-top: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -97,6 +124,14 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button:hover,
@@ -194,21 +229,22 @@ footer .footer-span {
   align-items: center;
 }
 
-.navigation {
-  display: flex;
+header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.head-cont {
+.nav-cont {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.cont-list {
+.navigation {
   display: flex;
-  gap: 40px;
+  align-items: center;
 }
 
-.nav-head-li {
-  padding: 24px 0;
+.list-address {
+  display: flex;
+  gap: 40px;
 }
