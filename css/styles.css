@@ -82,7 +82,7 @@ header .logo {
   letter-spacing: 0.02em;
   display: block;
   padding-top: 24px;
-  padding-bottom: 23px;
+  padding-bottom: 24px;
 }
 
 .nav-list-item:hover,
@@ -119,10 +119,13 @@ header .logo {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  padding-top: 188px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+}
+
+.one-cont {
+  padding: 188px 0;
 }
 
 .button {
@@ -241,6 +244,7 @@ footer .footer-span {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin: 0;
+  max-width: 264px;
 }
 
 .section-team {
@@ -328,8 +332,4 @@ li .cont-exp {
   display: inline-block;
   margin-bottom: 16px;
   margin-right: 0;
-}
-
-.width-foot {
-  max-width: 264px;
 }
