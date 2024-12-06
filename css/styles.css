@@ -226,6 +226,7 @@ header .logo {
 }
 
 .footer {
+  display: block;
   background-color: #2e2f42;
   padding: 100px 0;
 }
@@ -327,8 +328,7 @@ li .cont-exp {
   flex-direction: column;
 }
 
-.logo-block {
-  display: inline-block;
+.contacts .logo {
   margin-bottom: 16px;
   margin-right: 0;
 }
