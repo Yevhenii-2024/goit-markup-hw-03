@@ -32,6 +32,12 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -124,11 +130,12 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  display: block;
   text-align: center;
-  border: 0;
+  border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin-left: auto;
   margin-right: auto;
@@ -247,4 +254,27 @@ header {
 .list-address {
   display: flex;
   gap: 40px;
+}
+
+.section-one .container {
+  padding-bottom: 188px;
+}
+
+.list-sect-two {
+  display: flex;
+  /* padding: 120px 0; */
+  gap: 24px;
+}
+
+.list-item {
+  width: calc((100% - 74px) / 4);
+}
+
+.sect-two {
+  padding: 120px 0;
+}
+
+.our-team {
+  display: flex;
+  gap: 24px;
 }
