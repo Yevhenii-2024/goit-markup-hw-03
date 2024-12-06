@@ -109,6 +109,7 @@ header .logo {
 
 .section-one {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -122,7 +123,6 @@ header .logo {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
-  padding: 188px 0;
 }
 
 .button {
@@ -209,7 +209,6 @@ header .logo {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .app-works-title {
@@ -306,7 +305,10 @@ li .cont-exp {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
+}
+
+.sect-four {
+  padding: 120px 0;
 }
 
 .portfolio-cont {
@@ -325,7 +327,7 @@ li .cont-exp {
   flex-direction: column;
 }
 
-.cont-footer a {
+.logo-block {
   display: inline-block;
   margin-bottom: 16px;
   margin-right: 0;
